@@ -1,0 +1,266 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Created with Jaspersoft Studio version 6.19.1.final using JasperReports Library version 6.19.1-867c00bf88cd4d784d404379d6c05e1b419e8a4c  -->
+<jasperReport xmlns="http://jasperreports.sourceforge.net/jasperreports" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://jasperreports.sourceforge.net/jasperreports http://jasperreports.sourceforge.net/xsd/jasperreport.xsd" name="garment" pageWidth="595" pageHeight="842" columnWidth="555" leftMargin="20" rightMargin="20" topMargin="20" bottomMargin="20" uuid="1a403f1d-b67f-4fef-b40b-abbc288608fe">
+    <parameter name="Parameter1" class="java.lang.String"/>
+    <queryString>
+		<![CDATA[]]>
+    </queryString>
+    <field name="COLUMN_0" class="java.lang.String"/>
+    <field name="COLUMN_1" class="java.lang.String"/>
+    <field name="COLUMN_2" class="java.lang.String"/>
+    <field name="COLUMN_3" class="java.lang.String"/>
+    <field name="COLUMN_4" class="java.lang.String"/>
+    <field name="COLUMN_5" class="java.lang.String"/>
+    <field name="COLUMN_6" class="java.lang.String"/>
+    <field name="COLUMN_7" class="java.lang.String"/>
+    <background>
+        <band splitType="Stretch"/>
+    </background>
+    <title>
+        <band height="175" splitType="Stretch">
+            <image>
+                <reportElement x="216" y="-3" width="159" height="112" uuid="65657b69-c719-4105-8d21-d7eaad64917c"/>
+                <imageExpression class="java.lang.String"><![CDATA[this.getClass().getResourceAsStream("/resources/HARWARDLOGO.png")]]></imageExpression> 
+            </image>
+            <staticText>
+                <reportElement mode="Opaque" x="-20" y="120" width="200" height="34" backcolor="#47B5FF" uuid="9b7fee89-8c49-49b0-91d7-25432cd9df14"/>
+                <text><![CDATA[]]></text>
+            </staticText>
+            <staticText>
+                <reportElement mode="Opaque" x="380" y="120" width="195" height="34" backcolor="#47B5FF" uuid="e0c13b4f-8b2f-40f3-bd9c-94aee4f99067"/>
+                <text><![CDATA[]]></text>
+            </staticText>
+            <staticText>
+                <reportElement x="0" y="110" width="560" height="55" uuid="af06c902-ca51-4de1-9ad9-c8909f6bf17d"/>
+                <textElement textAlignment="Center" verticalAlignment="Middle">
+                    <font fontName="Heiti SC" size="35" isBold="true"/>
+                </textElement>
+                <text><![CDATA[USER EMPLOYEES]]></text>
+            </staticText>
+        </band>
+    </title>
+    <columnHeader>
+        <band height="50">
+            <staticText>
+                <reportElement mode="Opaque" x="280" y="23" width="66" height="26" forecolor="#FFFFFF" backcolor="#1363DF" uuid="1db447f9-62f2-406e-873d-c5ec60a7a8ee">
+                    <property name="com.jaspersoft.studio.unit.width" value="px"/>
+                    <property name="com.jaspersoft.studio.unit.x" value="pixel"/>
+                </reportElement>
+                <box>
+                    <pen lineWidth="1.0" lineColor="#030303"/>
+                </box>
+                <textElement textAlignment="Center" verticalAlignment="Middle">
+                    <font fontName="Quicksand" size="8" isBold="true"/>
+                </textElement>
+                <text><![CDATA[Mobile]]></text>
+            </staticText>
+            <staticText>
+                <reportElement mode="Opaque" x="210" y="23" width="70" height="26" forecolor="#FFFFFF" backcolor="#1363DF" uuid="a3b74e15-dfd0-4264-9c08-5401638564c6">
+                    <property name="com.jaspersoft.studio.unit.width" value="px"/>
+                </reportElement>
+                <box>
+                    <pen lineWidth="1.0" lineColor="#030303"/>
+                </box>
+                <textElement textAlignment="Center" verticalAlignment="Middle">
+                    <font fontName="Quicksand" size="8" isBold="true"/>
+                </textElement>
+                <text><![CDATA[NIC]]></text>
+            </staticText>
+            <staticText>
+                <reportElement mode="Opaque" x="55" y="23" width="44" height="26" forecolor="#FFFFFF" backcolor="#1363DF" uuid="52f04add-7c8f-4a7a-b2b2-4e507ffa7189">
+                    <property name="com.jaspersoft.studio.unit.width" value="px"/>
+                </reportElement>
+                <box>
+                    <pen lineWidth="1.0" lineColor="#030303"/>
+                </box>
+                <textElement textAlignment="Center" verticalAlignment="Middle">
+                    <font fontName="Quicksand" size="8" isBold="true"/>
+                </textElement>
+                <text><![CDATA[Employee Id]]></text>
+            </staticText>
+            <staticText>
+                <reportElement mode="Opaque" x="20" y="23" width="35" height="26" forecolor="#FFFFFF" backcolor="#1363DF" uuid="63a9c2b7-c605-430f-9593-bb8f39d4ca00">
+                    <property name="com.jaspersoft.studio.unit.width" value="px"/>
+                </reportElement>
+                <box>
+                    <pen lineWidth="1.0" lineColor="#030303"/>
+                </box>
+                <textElement textAlignment="Center" verticalAlignment="Middle">
+                    <font fontName="Quicksand" size="8" isBold="true"/>
+                </textElement>
+                <text><![CDATA[User Id]]></text>
+            </staticText>
+            <staticText>
+                <reportElement mode="Opaque" x="99" y="23" width="111" height="26" forecolor="#FFFFFF" backcolor="#1363DF" uuid="faa9ebbb-03e9-439e-a3b2-367abbf910f3">
+                    <property name="com.jaspersoft.studio.unit.width" value="px"/>
+                </reportElement>
+                <box>
+                    <pen lineWidth="1.0" lineColor="#030303"/>
+                </box>
+                <textElement textAlignment="Center" verticalAlignment="Middle">
+                    <font fontName="Quicksand" size="8" isBold="true"/>
+                </textElement>
+                <text><![CDATA[Full Name]]></text>
+            </staticText>
+            <staticText>
+                <reportElement mode="Opaque" x="346" y="23" width="90" height="26" forecolor="#FFFFFF" backcolor="#1363DF" uuid="0e523198-4a6c-4825-8922-451b0a5376bf">
+                    <property name="com.jaspersoft.studio.unit.width" value="px"/>
+                </reportElement>
+                <box>
+                    <pen lineWidth="1.0" lineColor="#030303"/>
+                </box>
+                <textElement textAlignment="Center" verticalAlignment="Middle">
+                    <font fontName="Quicksand" size="8" isBold="true"/>
+                </textElement>
+                <text><![CDATA[Email]]></text>
+            </staticText>
+            <staticText>
+                <reportElement mode="Opaque" x="436" y="23" width="52" height="26" forecolor="#FFFFFF" backcolor="#1363DF" uuid="afa9c0f0-08d9-4e5d-b7dd-899f3b73fea3">
+                    <property name="com.jaspersoft.studio.unit.width" value="px"/>
+                </reportElement>
+                <box>
+                    <pen lineWidth="1.0" lineColor="#030303"/>
+                </box>
+                <textElement textAlignment="Center" verticalAlignment="Middle">
+                    <font fontName="Quicksand" size="8" isBold="true"/>
+                </textElement>
+                <text><![CDATA[Gender]]></text>
+            </staticText>
+            <staticText>
+                <reportElement mode="Opaque" x="488" y="23" width="50" height="26" forecolor="#FFFFFF" backcolor="#1363DF" uuid="d0dfb46e-3cdf-448b-8115-d58f4960cf34">
+                    <property name="com.jaspersoft.studio.unit.width" value="px"/>
+                </reportElement>
+                <box>
+                    <pen lineWidth="1.0" lineColor="#030303"/>
+                </box>
+                <textElement textAlignment="Center" verticalAlignment="Middle">
+                    <font fontName="Quicksand" size="8" isBold="true"/>
+                </textElement>
+                <text><![CDATA[User Type]]></text>
+            </staticText>
+        </band>
+    </columnHeader>
+    <detail>
+        <band height="59" splitType="Stretch">
+            <textField>
+                <reportElement x="20" y="-1" width="35" height="60" uuid="4eb993ca-909e-4646-acfb-e353dc8ff0c3"/>
+                <box>
+                    <pen lineWidth="1.0"/>
+                </box>
+                <textElement textAlignment="Center" verticalAlignment="Middle">
+                    <font fontName="Quicksand"/>
+                </textElement>
+                <textFieldExpression><![CDATA[$F{COLUMN_0}]]></textFieldExpression>
+            </textField>
+            <textField>
+                <reportElement x="55" y="-1" width="44" height="60" uuid="d5ce33db-ddd5-4702-b5c5-383c6b31d475"/>
+                <box>
+                    <pen lineWidth="1.0"/>
+                </box>
+                <textElement textAlignment="Center" verticalAlignment="Middle">
+                    <font fontName="Quicksand"/>
+                </textElement>
+                <textFieldExpression><![CDATA[$F{COLUMN_1}]]></textFieldExpression>
+            </textField>
+            <textField>
+                <reportElement x="99" y="-1" width="111" height="60" uuid="42866621-6f3d-45fa-9ec2-3bf675f19d5e"/>
+                <box>
+                    <pen lineWidth="1.0"/>
+                </box>
+                <textElement textAlignment="Center" verticalAlignment="Middle">
+                    <font fontName="Quicksand"/>
+                </textElement>
+                <textFieldExpression><![CDATA[$F{COLUMN_2}]]></textFieldExpression>
+            </textField>
+            <textField>
+                <reportElement x="210" y="-1" width="70" height="60" uuid="6566e487-f465-44a2-9f79-be4c42ac9636"/>
+                <box>
+                    <pen lineWidth="1.0"/>
+                </box>
+                <textElement textAlignment="Center" verticalAlignment="Middle">
+                    <font fontName="Quicksand"/>
+                </textElement>
+                <textFieldExpression><![CDATA[$F{COLUMN_3}]]></textFieldExpression>
+            </textField>
+            <textField>
+                <reportElement x="280" y="-1" width="66" height="60" uuid="1e8fa75c-8048-4e4d-a1c4-40ca16563ceb"/>
+                <box>
+                    <pen lineWidth="1.0"/>
+                </box>
+                <textElement textAlignment="Center" verticalAlignment="Middle">
+                    <font fontName="Quicksand"/>
+                </textElement>
+                <textFieldExpression><![CDATA[$F{COLUMN_4}]]></textFieldExpression>
+            </textField>
+            <textField>
+                <reportElement x="346" y="-1" width="90" height="60" uuid="f1f93b84-098d-4489-a025-0cbeba39e327"/>
+                <box>
+                    <pen lineWidth="1.0"/>
+                </box>
+                <textElement textAlignment="Center" verticalAlignment="Middle">
+                    <font fontName="Quicksand"/>
+                </textElement>
+                <textFieldExpression><![CDATA[$F{COLUMN_5}]]></textFieldExpression>
+            </textField>
+            <textField>
+                <reportElement x="436" y="-1" width="52" height="60" uuid="5ad098a2-0b04-4f9c-9b42-1816daf0e507"/>
+                <box>
+                    <pen lineWidth="1.0"/>
+                </box>
+                <textElement textAlignment="Center" verticalAlignment="Middle">
+                    <font fontName="Quicksand"/>
+                </textElement>
+                <textFieldExpression><![CDATA[$F{COLUMN_6}]]></textFieldExpression>
+            </textField>
+            <textField>
+                <reportElement x="488" y="-1" width="50" height="60" uuid="b4981fce-961f-49dc-8273-9bd295b7f25f"/>
+                <box>
+                    <pen lineWidth="1.0"/>
+                </box>
+                <textElement textAlignment="Center" verticalAlignment="Middle">
+                    <font fontName="Quicksand"/>
+                </textElement>
+                <textFieldExpression><![CDATA[$F{COLUMN_7}]]></textFieldExpression>
+            </textField>
+        </band>
+    </detail>
+    <pageFooter>
+        <band height="88" splitType="Stretch">
+            <staticText>
+                <reportElement mode="Opaque" x="-20" y="10" width="320" height="2" backcolor="#47B5FF" uuid="29c1e681-0c19-4087-90f9-2f007e3f8d52"/>
+                <text><![CDATA[]]></text>
+            </staticText>
+            <staticText>
+                <reportElement mode="Opaque" x="511" y="10" width="64" height="2" backcolor="#47B5FF" uuid="2a0e7a41-61c2-448d-942d-a810cd10dcf2"/>
+                <text><![CDATA[]]></text>
+            </staticText>
+            <staticText>
+                <reportElement mode="Opaque" x="310" y="11" width="190" height="1" backcolor="#030303" uuid="7517c4ab-59c6-4e13-9387-c75367db27ab">
+                    <property name="com.jaspersoft.studio.unit.height" value="px"/>
+                </reportElement>
+                <text><![CDATA[]]></text>
+            </staticText>
+            <staticText>
+                <reportElement x="310" y="12" width="190" height="18" uuid="9699525a-e04f-4c7e-90af-4153fe8f61d1"/>
+                <textElement textAlignment="Center" verticalAlignment="Middle">
+                    <font fontName="Quicksand" isBold="true"/>
+                </textElement>
+                <text><![CDATA[Authorised Sign]]></text>
+            </staticText>
+            <staticText>
+                <reportElement x="-20" y="53" width="594" height="16" uuid="bc7ee129-5db5-4d18-a766-8b64376ed07d"/>
+                <textElement textAlignment="Center">
+                    <font fontName="Quicksand" isBold="true"/>
+                </textElement>
+                <text><![CDATA[0714871123   |   699/10 Rice mill Rd, Katunayake   |   hawardfashion.lk]]></text>
+            </staticText>
+            <staticText>
+                <reportElement x="110" y="68" width="340" height="20" uuid="f798d1f8-bee5-43d3-a9e2-6cfc797fc22b"/>
+                <textElement textAlignment="Center">
+                    <font fontName="Quicksand"/>
+                </textElement>
+                <text><![CDATA[This is a property of Haward Fashion Pvt. Ltd. ]]></text>
+            </staticText>
+        </band>
+    </pageFooter>
+</jasperReport>
